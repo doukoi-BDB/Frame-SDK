@@ -1,4 +1,0 @@
-1、Mail_class 文件 是一个邮件类，复制里面3个php文件。便可使用，如有其他疑问，联系Wx: gtcarry888 (标注来源)。
-
-2、Redis_exe 文件中有redis服务的程序
-
