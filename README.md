@@ -5,6 +5,8 @@
 
 谢谢订阅。这里是一个实验场，希望给读者呈现一副关于中国互联网编程技术的「清明上河图」。
 
+----------------------
+
 微信群欢迎交流<h3>`php` `web` `mysql` `Linux`</h3>
 
 <a href="https://github.com/gtcarry888/WeChat-Sharing-records">「每日微信分享记录」</a> ：https://github.com/gtcarry888/WeChat-Sharing-records
