@@ -11,7 +11,7 @@
 
 <a href="https://github.com/gtcarry888/WeChat-Sharing-records">「每日微信分享记录」</a> ：https://github.com/gtcarry888/WeChat-Sharing-records
 
-<a href="https://github.com/gtcarry888/WeChat-Sharing-records">「IT 编程资源闲置」</a> ：https://github.com/gtcarry888/WeChat-Sharing-records
+<a href="https://github.com/gtcarry888/WeChat-Sharing-records">「IT 编程资源闲置」</a> ：https://github.com/gtcarry888/Idle-it-resources
 
 <a href="https://github.com/gtcarry888/Source-code">「小程序相关源码」</a> ：https://github.com/gtcarry888/Source-code
 
