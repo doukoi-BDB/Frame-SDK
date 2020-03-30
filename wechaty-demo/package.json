@@ -1,0 +1,17 @@
+{
+  "name": "wechaty-demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node ./index.js"
+  },
+  "author": "isboyjc",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "wechaty": "^0.32.5",
+    "wechaty-puppet-padplus": "^0.4.8"
+  }
+}
