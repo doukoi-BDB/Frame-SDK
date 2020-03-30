@@ -9,7 +9,7 @@ const { Wechaty } = require("wechaty")
 const { PuppetPadplus } = require("wechaty-puppet-padplus")
 const QrcodeTerminal = require("qrcode-terminal")
 
-const token = "puppet_padplus_1d03e0f498341476"
+const token = ""
 
 const puppet = new PuppetPadplus({
   token
