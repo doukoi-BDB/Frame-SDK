@@ -19,12 +19,6 @@ It is forbidden to despise or satirize any beginners, or kick the group directly
 ---------------------
 
 
-
-
-[Wechaty|NodeJS基于iPad协议手撸一个简单的微信机器人助手-掘金](https://juejin.im/post/5e5b2aeff265da5710438a1e)
-
-
-
 #### 目前实现功能
 
 - 自动通过好友验证
@@ -53,10 +47,3 @@ It is forbidden to despise or satirize any beginners, or kick the group directly
 |---- onFriendShip.js	# 好友添加监听回调
 |-- package.json
 ```
-
-
-
-#### 最后
-
-
-
