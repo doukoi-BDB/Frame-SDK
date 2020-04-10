@@ -1,7 +1,9 @@
 
+
 <!-- markdownlint-disable -->
 
-> 作者:Bruce.D，IT 后端从业者（php、golang、DBA、Linux）
+> 作者:Bruce.D，IT 行业从业者 技术领域（php、golang、DBA、Linux、web）
+
 <!-- more -->
 
 这是一套 源码开源框架，俗称DBD-frame v1.0 version。
