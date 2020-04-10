@@ -19,6 +19,6 @@ DBD-frame 开源社区欢迎你
 
 | 技术交流wechat群 | xzzs730 |
 | :------------- | :----------- |
-| [CSDN博客]| https://blog.csdn.net/qq_40884473 |
-| [加入我们] | wechat：xzzs730 ，备注BDB-frame（按照要求备注，有时候会挂载机器人审核） |
-| 公众号 | 八点半技术站 |
+| 「CSDN博客」| https://blog.csdn.net/qq_40884473 |
+| 「加入我们」| wechat：xzzs730 ，备注BDB-frame（按照要求备注，有时候会挂载机器人审核） |
+| 「公众号」 | 八点半技术站 |
