@@ -41,8 +41,11 @@
 
 2、BDB-frame 系统运行环境支持 PHP5.4 + nginx/apache
 
-3、演示地址：待定（图片 or 网站）
+3、BDB-frame 系统支持单独API请求，请求方式：模块-控制器-方法名 （Main.php）
 
+4、演示地址：待定（图片 or 网站）
+
+<br/>
 #### 结构
 
 ```js
