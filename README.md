@@ -4,10 +4,7 @@
 
 > 本仓库是作者Bruce.D 从事一线互联网 ```PHP/Golang/数据库``` 开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习技术干货。如果本仓库能为您提供帮助，请给予支持(点star)！
 
-<br/>
-<div align="center">
-    <a href="#" style="text-decoration:none"><img src="https://bugstack.cn/assets/images/icon.svg" width="128px"></a>
-</div>
+
 <br/>  
 
 ### 简介：
