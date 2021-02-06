@@ -20,6 +20,15 @@
 
 <br/>
 
+### 重点：
+
+1、本仓库管理系统分享各种单独API、插件、类 文件（例如：微信支付、扫码支付、授权登录、发送短信.....一系列），本仓库语言暂时为 PHP 为主 web 为辅（其他仓库，后续接入python、go）
+目的是什么：小白可以直接套用，也可以为处于职场的开发者提供思路。不知道思路 or 无法下手时候，可以来此寻找 对应的API 等等，拿过去几乎可以套用。（有不懂的问题，欢迎在社群讨论）
+
+2、本仓库管理系统，代码定会简洁，但不是最优，所以不喜勿喷。有大佬者，看到此代码，如果越意帮助更新 or 自己也有功能，插件，方可联系我们，一起加入开发队列。 
+
+<br/>
+
 ### 附：特别说明 <br/>
 ▽<br/>
 来   源（公众号）：八点半技术站（ID：gtcarry）<br/>
@@ -31,45 +40,28 @@
 
 | 技术交流wechat群 | xzzs730  期待与你一起更新开源系统、男女不限、水平不限|
 | :------------- | :----------- |
-| 「CSDN博客」| https://blog.csdn.net/qq_40884473 |
 | 「加入我们」| wechat：xzzs730 ，备注BDB |
 | 「公众号」 | 八点半技术站 |
 <br/>
 
+
+### 目前贡献代码的队友
+
+| 昵称 | 领域  | 性别 | 头像   |
+| :------------- | :----------- | :----------- |:----------- |
+| 小峰哥| 「web、数据库」 |「男」 | <img src="https://bugstack.cn/assets/images/icon.svg" width="128px"> |
+| 大头 | 「php、数据库」 |「女」 | <img src="https://bugstack.cn/assets/images/icon.svg" width="128px"> |
+<br/>
+
+
 ### 使用说明
-1、BDB-frame 系统后端框架采用 CI框架，语言采用 PHP + MYSQL + layui
+1、BDB-frame 系统后端框架本次采用 CI（后续接入：yii/tp/laravel）
 
-2、BDB-frame 系统运行环境支持 PHP5.4 + nginx/apache
+2、BDB-frame API请求方式 可一次查看 application/controller/Main.php 文件，请求方式在内部有填写
 
-3、BDB-frame 系统支持单独API请求，请求方式：模块-控制器-方法名 （Main.php）
-
-4、演示地址：待定（图片 or 网站）
 
 <br/>
-#### 结构
 
-```js
-|-- application /     # 开发者代码
-  |-----core            # 项目的核心程序 
-  |-----helpers         # 项目的辅助函数 
-  |-----libraries       # 通用类库  
-  |-----language        # 语言包 
-  |-----config          # 项目相关的配置 
-  |-----controllers     # 控制器目录  
-  |-----models          # 模型目录  
-  |-----views           # 视图目录
-  |-----cache           # 存放数据或模板的缓存文件  
-  |-----hooks           # 钩子，在不修改系统核心文件的基础上扩展系统功能  
-  |-----third_party     # 第三方库  
-  |-----logs            # 日志  
-  |-----modules         # 模块文件  
-|-- system /          # 系统代码
-|-- public /          # web 代码
-|-- vendor /          # 核心代码
-|-- index.php         # 入口文件
-
-```
-<br/>
 
 #### 更新公告
 --2020.9.1
