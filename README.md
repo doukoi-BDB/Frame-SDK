@@ -44,10 +44,10 @@
 
 ### 目前贡献代码的队友
 
-| 昵称 | 领域  | 性别 | 头像   |
+| 昵称 | 领域  | 性别 | 一句话的简介   |
 | :------------- | :----------- | :----------- |:----------- |
-| 小峰哥| 「web、数据库」 |「男」 | <img src="https://bugstack.cn/assets/images/icon.svg" width="128px"> |
-| 大头 | 「php、数据库」 |「女」 | <img src="https://bugstack.cn/assets/images/icon.svg" width="128px"> |
+| 小峰哥| 「web、数据库」 |「男」 | 暂无 |
+| 大头 | 「php、数据库」 |「女」 | 暂无 |
 <br/>
 
 
