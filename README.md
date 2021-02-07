@@ -54,10 +54,45 @@
 ### 使用说明
 1、BDB-frame 系统后端框架本次采用 CI（后续接入：yii/tp/laravel）
 
-2、BDB-frame API请求方式 可一次查看 application/controller/Main.php 文件，请求方式在内部有填写
+2、BDB-frame API请求方式 可依次查看 application/controller/Main.php 文件，请求方式在内部有填写
+
+<br/>
+
+### CI 目录结构
+    |-----system                 框架程序目录  
+         |-----core              框架的核心程序  
+         |-----helpers           辅助函数  
+         |-----libraries         通用类库  
+         |-----language          语言包  
+         |-----database          数据库操作相关的程序              
+         |-----fonts             字库  
+          
+    |-----application            项目目录  
+         |-----core              项目的核心程序  
+         |-----helpers           项目的辅助函数    
+         |-----libraries         通用类库  
+         |-----language          语言包  
+         |-----config            项目相关的配置  
+         |-----controllers       控制器目录  
+         |-----models            模型目录  
+         |-----views             视图目录  
+         |-----cache             存放数据或模板的缓存文件  
+         |-----hooks             钩子，在不修改系统核心文件的基础上扩展系统功能  
+         |-----third_party       第三方库  
+         |-----logs              日志  
+         
+    |-----public                 公共目录  
+         |-----css               样式  
+         |-----img               图片    
+         |-----js                js  
+    
+    |-----vendor                 核心目录  
+     
+    |-----index.php              入口文件 
 
 
 <br/>
+
 
 
 #### 更新公告
