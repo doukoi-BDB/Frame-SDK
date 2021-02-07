@@ -3,7 +3,6 @@
 /**
  * 公共Model 
  * @auther  Bruce.D
- * @version 2018-07-03
  */
 class MY_Model extends CI_Model
 {
@@ -276,8 +275,7 @@ class MY_Model extends CI_Model
     * @param string $filed 查询的字段
     * @param mixed $where 查询条件
     * @return 结果集
-    * @author  doutingqiang
-    * @date		2018-07-03
+    * @author  Bruce.D
     */
     public function select($filed = '*', $where = array()){
        //去除空格

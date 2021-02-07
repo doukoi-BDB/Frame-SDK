@@ -96,6 +96,11 @@
 
 
 #### 更新公告
---2020.9.1
+---2020.9.1
 1. 本次更新时间-2020.9.1
-2. 上传BDB-frame，初始版本V1.0.0 
+2. 上传Component-API，初始版本V1.0.0 
+
+---2021.2.7
+1. Component-API 版本优化V1.0.1
+2. 新增 Application/Core/MY_Model.php
+3. 新增封装方法（getList、getJoinList、getRow、getOne、getJoinOne、getJoinRow、insertData、delData、delData）
