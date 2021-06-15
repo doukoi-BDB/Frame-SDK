@@ -14,8 +14,7 @@ class MY_Model extends CI_Model
 
 	/**
 	 * 加载读写数据库
-	 * @auther doutingqiang
-	 * @version 2018-07-03
+	 * @auther bruce.D
 	 */
 	function __construct()
 	{
@@ -260,8 +259,7 @@ class MY_Model extends CI_Model
 	 * -------------------------------------------
 	 * @param $where 删除where条件
 	 * @return bool
-	 * @author		doutingqiang
-	 * @date		2018-07-03
+	 * @author		Bruce.D
 	 */
 	public function delData( $where )
 	{

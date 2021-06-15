@@ -10,6 +10,9 @@ class Main extends CI_Controller {
 
 	}
 
+	/*
+	 * 方法请求 - url
+	 */
 	public function action() {
         header('content-type:application/json;charset=utf8');
 		$modules_name   = $this->uri->segment(3);
