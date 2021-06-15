@@ -1,6 +1,6 @@
 # BDB-frame V1.0.0 | 源码官方社群
 
-> **作者：** Bruce.D，PHP 数据库，[:pencil2: 八点半技术站 · 科技栈](#)，[:trophy: CSDN 博客](https://blog.csdn.net/qq_40884473)
+> **作者：** Bruce.D，PHP 数据库，[:pencil2: 八点半技术站 · 科技栈](https://mp.weixin.qq.com/s/XybKz5MwfKpz4RgeQFJUew)，[:trophy: CSDN 博客](https://blog.csdn.net/qq_40884473)
 
 > 本仓库是作者Bruce.D 从事一线互联网 ```PHP/Golang/数据库``` 开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习技术干货。如果本仓库能为您提供帮助，请给予支持(点star)！
 
