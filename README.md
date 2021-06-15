@@ -105,3 +105,9 @@
 1. Component-API 版本优化V1.0.1
 2. 新增 Application/Core/MY_Model.php
 3. 新增封装方法（getList、getJoinList、getRow、getOne、getJoinOne、getJoinRow、insertData、delData、delData）
+
+---2021.6.15
+1、封装访问 api-url 请求路由方式
+2、加载封装 redis 类文件，内部加载 基础 redis 使用方式（test、set、sadd、srem、hset）
+3、生成 /modules/BDB_Basics/controller - model , Frame_redis_content.php 主要操作，redis 使	用方式，注册api 。
+4、Component-API 版本优化V1.0.2
