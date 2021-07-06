@@ -1,6 +1,6 @@
 # BDB-frame V1.0.0 | 源码官方社群
 
-> **作者：** Bruce.D，PHP 数据库，[:pencil2: 八点半技术站 · 科技栈](#)，[:trophy: CSDN 博客](https://blog.csdn.net/qq_40884473)
+> **作者：** Bruce.D，PHP 数据库，[:pencil2: 八点半技术站 · 科技栈](https://mp.weixin.qq.com/s/XybKz5MwfKpz4RgeQFJUew)，[:trophy: CSDN 博客](https://blog.csdn.net/qq_40884473)
 
 > 本仓库是作者Bruce.D 从事一线互联网 ```PHP/Golang/数据库``` 开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习技术干货。如果本仓库能为您提供帮助，请给予支持(点star)！
 
@@ -46,14 +46,12 @@
 
 | 昵称 | 领域  | 国籍 | 一句话的简介   |
 | :------------- | :----------- | :----------- |:----------- |
-| 小峰哥| <a href="#">「web、数据库」</a> |「China」 | 一名5年经验的web工程师 |
-| 大头 | <a href="#">「web、数据库」</a> |「China」 | 暂无 |
-| 娟姐 | <a href="#">「web」</a> |「China」 | 姐是个传说 |
+| 暂无| <a href="#">「暂无」</a> |「暂无」 | 暂无 |
 <br/>
 
 
 ### 使用说明
-1、BDB-frame 系统后端框架本次采用 CI（后续接入：yii/tp/laravel）
+1、BDB-frame 系统后端框架本次采用 CI（框架只是一个案例）
 
 2、BDB-frame API请求方式 可依次查看 application/controller/Main.php 文件，请求方式在内部有填写
 
@@ -97,11 +95,18 @@
 
 
 #### 更新公告
----2020.9.1
-1. 本次更新时间-2020.9.1
-2. 上传Component-API，初始版本V1.0.0 
+---2021.5.15
+1. 封装访问 api-url 请求路由方式
+2. 加载封装 redis 类文件，内部加载 基础 redis 使用方式（test、set、sadd、srem、hset）
+3. 生成 /modules/BDB_Basics/controller - model , Frame_redis_content.php 主要操作，redis 使	用方式，注册api 。
+4. Component-API 版本优化V1.0.2
 
----2021.2.7
+---2021.4.7
 1. Component-API 版本优化V1.0.1
 2. 新增 Application/Core/MY_Model.php
 3. 新增封装方法（getList、getJoinList、getRow、getOne、getJoinOne、getJoinRow、insertData、delData、delData）
+
+
+---2021.2.1
+1. 本次更新时间-2020.9.1
+2. 上传Component-API，初始版本V1.0.0 
