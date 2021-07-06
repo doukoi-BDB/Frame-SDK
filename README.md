@@ -95,18 +95,22 @@
 
 
 #### 更新公告
----2021.5.15
+---2021.7.7
+1. 开发 小程序 手机号登录授权，解密类 （几乎90%复制粘贴即可用）
+2. Component-API 版本优化V1.0.3
+
+---2021.6.15
 1. 封装访问 api-url 请求路由方式
 2. 加载封装 redis 类文件，内部加载 基础 redis 使用方式（test、set、sadd、srem、hset）
 3. 生成 /modules/BDB_Basics/controller - model , Frame_redis_content.php 主要操作，redis 使	用方式，注册api 。
 4. Component-API 版本优化V1.0.2
 
----2021.4.7
+---2021.5.7
 1. Component-API 版本优化V1.0.1
 2. 新增 Application/Core/MY_Model.php
 3. 新增封装方法（getList、getJoinList、getRow、getOne、getJoinOne、getJoinRow、insertData、delData、delData）
 
 
----2021.2.1
+---2021.3.1
 1. 本次更新时间-2020.9.1
 2. 上传Component-API，初始版本V1.0.0 
