@@ -1,4 +1,4 @@
-# BDB-frame V1.0.3 | 源码官方社群
+# BDB-frame V1.0.4 | 源码官方社群
 
 > **作者：** Bruce.D，PHP 数据库，[:pencil2: 八点半技术站 · 科技栈](https://mp.weixin.qq.com/s/XybKz5MwfKpz4RgeQFJUew)，[:trophy: CSDN 博客](https://blog.csdn.net/qq_40884473)
 
@@ -95,9 +95,14 @@
 
 
 #### 更新公告
+---2021.7.21
+1. 开发邮件发送、核心类、邮件内容加载（几乎95%复制粘贴即可用，只需照猫画虎建粘贴一下model）
+2. 发送邮件文件地址api - url -  /modules/BDB_Basics/Frame_email
+3. Component-API 版本优化V1.0.4
+
 ---2021.7.6
 1. 开发 小程序 手机号登录授权，解密类 （几乎90%复制粘贴即可用）
-2. 授权地址api - url -  /modules/BDB_WeChat/
+2. 授权地址api - url -  /modules/BDB_WeChat/WeChat_login
 3. Component-API 版本优化V1.0.3
 
 ---2021.6.15
