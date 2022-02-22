@@ -1,0 +1,16 @@
+{
+    "name":"framesdk/test",
+    "description":"composer private test",
+    "authors":[
+        {
+            "name":"bruce",
+            "email":"gtcarry999@163.com"
+        }
+    ],
+    "require":{},
+    "autoload":{
+        "psr-4":{
+            "Comsdk\\":"src/"
+        }
+    }
+}
