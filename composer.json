@@ -1,5 +1,5 @@
 {
-    "name": "bdb/sdk",
+    "name": "txz/sdk",
     "description": "SDK",
     "autoload": {
         "psr-4": {
