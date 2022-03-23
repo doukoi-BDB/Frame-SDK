@@ -1,0 +1,16 @@
+{
+    "name": "frame/sdk",
+    "description": "SDK",
+    "autoload": {
+        "psr-4": {
+            "Frame\\Sdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "doukoi-BDB",
+            "email": "gtcarry888@163.com"
+        }
+    ],
+    "require": {}
+}
