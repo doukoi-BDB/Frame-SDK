@@ -1,5 +1,5 @@
 {
-    "name": "frame/sdk",
+    "name": "bdb/sdk",
     "description": "SDK",
     "autoload": {
         "psr-4": {
