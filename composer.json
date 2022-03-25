@@ -1,6 +1,6 @@
 {
     "name": "txz/sdk",
-    "description": "The SDK contains functions, classes, APIs, and demos. Copy and paste for use\n\nWelcome to use. If you have any questions, please contact the community",
+    "description": "The SDK contains functions, classes, APIs, and demos. Copy and paste for use\n\nWelcome to use. If you have any questions, please contact the community.",
     "autoload": {
         "psr-4": {
             "Frame\\Sdk\\": "src/"
