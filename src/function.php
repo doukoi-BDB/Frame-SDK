@@ -213,3 +213,104 @@ function getBrowserList($url = '',$type){
 
 }
 
+
+/**
+ * 判断数值是否是指定值倍数
+ * @param $num 指定数值
+ * @param $multiple 倍数值
+ * @return string
+ * @author bruce
+ */
+function multipleNum($num,$multiple = 2){
+    if (!empty($num) && ($num % $multiple) == 0){
+        return '结果：'.$multiple.'是'.$num.'的倍数';
+    }else{
+        return '结果：不是指定倍数';
+    }
+}
+
+
+/**
+ * 判断数值是否在数值中连续出现&连续出现3次
+ * @param $array array 数组 array(2,6,6,6,7,2,1,8,9)
+ * @return string
+ * @author bruce
+ */
+function continuityNum($array){
+    if (!$array && !is_array($array)){
+        return '数据有误,请检验';
+    }
+
+    $arr = sizeof($array) - 1;
+    $n = 0;
+    for ($i = 0;$i<$arr;$i++){
+        $n = $array[$i];
+        if ($n == $array[$i + 1] && $n == $array[$i + 2]){
+            return '数值'.$n.'连续出现';
+        }else{
+            return '暂未找到连续出现数值';
+        }
+    }
+
+}
+
+
+/**
+ * 检测账户+密码是否合规（可扩展配置）
+ * @param $param 值（可以是字符串 & 数组，检测多样性，可扩展）
+ * @return mixed
+ * @author bruce
+ */
+function checkPassword($param){
+
+    $result = 'success';
+
+    if (!is_array($param)) $result = '数据结构有误 !';
+
+    $username= isset($param['username']) ? $param['username'] : '';
+    $password = isset($param['password']) ? $param['password'] : '';
+
+    if (empty($username) && empty($password)) $result = '用户名和密码不允许为空！';
+
+    if (strlen($password) < 6 || strlen($password) > 20) $result = '密码长度必须为6-20位之间！';
+
+    if ($username == $password) $result = '用户名和密码不能相同！';
+
+    return $result;
+}
+
+
+/**
+ * 检测密码强度
+ * @param $password 密码
+ * @return mixed   1~3  较弱    4~6  一般    6~10 强
+ * @author bruce
+ */
+function checkPwdStrong($password){
+
+    if (empty($password)) return '用户名和密码不允许为空！';
+
+    $score = 0;
+    if (preg_match("/[0-9]+/", $password)) $score++;
+
+    if (preg_match("/[0-9]{3,}/", $password)) $score++;
+
+    if (preg_match("/[a-z]+/", $password)) $score++;
+
+    if (preg_match("/[a-z]{3,}/", $password)) $score++;
+
+    if (preg_match("/[A-Z]+/", $password)) $score++;
+
+    if (preg_match("/[A-Z]{3,}/", $password)) $score++;
+
+    if (preg_match("/[_\-+=*!@#$%^&()]+/", $password)) $score += 2;
+
+    if (preg_match("/[_\-+=*!@#$%^&()]{3,}/", $password)) $score++;
+
+    if (strlen($password) >= 10) $score++;
+
+    return $score;
+}
+
+
+
