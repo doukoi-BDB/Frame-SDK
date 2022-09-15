@@ -52,6 +52,7 @@
 <br/>  
 
   ### 目录结构 ：
+    |-----lib                    类库   
     |-----src                    项目目录
         |-----function.php       函数文件
     |-----vendor                 核心目录（composer）

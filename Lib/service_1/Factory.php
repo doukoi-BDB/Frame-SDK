@@ -4,6 +4,7 @@
 
 class Factory{
 
+    use SingletonTrait;
 
     /**
      * 工厂声明类
