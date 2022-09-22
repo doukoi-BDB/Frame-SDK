@@ -91,9 +91,6 @@
 >1. 复用类（单列服务）试例：类::getInstance()
 >2. 类库（工厂模式）试例：Factory::createClass()
 
-> 2022.08.16
->1. 复用类（单列服务）试例：类::getInstance()
->2. 类库（工厂模式）试例：Factory::createClass()
 
 > 2022.08.08
 >1. 函数更新，函数本次更新4个
