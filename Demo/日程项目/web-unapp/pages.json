@@ -1,0 +1,121 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "小咪日程表"
+			}
+		},
+		{
+			"path": "pages/home/details",
+			"style": {
+				"navigationBarTitleText": "日程详情"
+			}
+		},
+		{
+			"path": "pages/send/index",
+			"style": {
+				"navigationBarTitleText": "信息发布"
+			}
+		},
+		{
+			"path": "pages/send/form",
+			"style": {
+				"navigationBarTitleText": "发布日程"
+			}
+		},
+		{
+			"path": "pages/send/insertText",
+			"style": {
+				"navigationBarTitleText": "发布记事本"
+			}
+		},
+		{
+			"path": "pages/send/message",
+			"style": {
+				"navigationBarTitleText": "发布留言"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/my/list",
+			"style": {
+				"navigationBarTitleText": "我的记事本"
+			}
+		},
+		{
+			"path": "pages/my/details",
+			"style": {
+				"navigationBarTitleText": "记事本详情"
+			}
+		},
+		{
+			"path": "pages/my/setBg",
+			"style": {
+				"navigationBarTitleText": "设置背景音乐"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/region",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/admin/index",
+			"style": {
+				"navigationBarTitleText": "管理员账号登录"
+			}
+		},
+		{
+			"path": "pages/admin/list",
+			"style": {
+				"navigationBarTitleText": "管理列表"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "日程",
+		"navigationBarBackgroundColor": "#FFD243",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"color": "#2c2c2c",
+		"selectedColor": "#FFD243",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home_.png",
+				"text": "日程",
+				"pagePath": "pages/home/index"
+			},
+			// {
+			// 	"iconPath": "static/tabbar/send.png",
+			// 	"selectedIconPath": "static/tabbar/send_.png",
+			// 	"text": "发布",
+			// 	"pagePath": "pages/send/index"
+			// },
+			{
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my_.png",
+				"text": "我的",
+				"pagePath": "pages/my/index"
+			}
+		]
+
+	},
+	"uniIdRouter": {}
+}
