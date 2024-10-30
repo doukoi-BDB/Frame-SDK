@@ -36,29 +36,14 @@
 >  ### 使用说明 ：
 >
 > 一、使用 composer 拉取对应版本代码
-> 
-> 1）拉取特定版本1.0.1 ： composer require txz/sdk:1.0.1
-> 
-> 2）拉取项目的5.5系列的版本：composer require "txz/sdk:5.5.*"
-> 
-> 3）如没有composer ，可以的话，官方装一个非常快，如果懒得装，那么常规 git 下载安装包即可。
-> 
-> 二、消息通知
-> 
-> 1）版本内容更新，底部消息公告
-> 
-> 2）版本内容更新，社群消息通知
+>
+> 二、git 拉取代码
+>
+> 三、github直接下载代码安装包
+ 
+
 
 <br/>  
-
-  ### 目录结构 ：
-    |-----lib                    类库   
-    |-----src                    项目目录
-        |-----function.php       函数文件
-    |-----vendor                 核心目录（composer）
-    |-----.gitignore             git忽略文件
-    |-----composer.josn          composer配置文件
-
 
 
 <br/>
